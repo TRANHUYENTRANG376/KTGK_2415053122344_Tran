@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHI TIẾT KHOẢN CHI"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/txtTenKhoanChi_344"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên khoản chi"
+        android:textSize="18sp"
+        android:padding="12dp"/>
+    <TextView
+        android:id="@+id/txtSoTien_344"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số tiền"
+        android:textSize="18sp"
+        android:padding="12dp"/>
+    <TextView
+        android:id="@+id/txtGhiChu_344"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú"
+        android:textSize="18sp"
+        android:padding="12dp"/>
+    <Button
+        android:id="@+id/btnQuayLai_344"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại màn hình chính"/>
+</LinearLayout>
